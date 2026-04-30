@@ -1,0 +1,21 @@
+{
+  "overview": "A restaurant website with a browsable menu, shopping cart, and checkout page with QR code for order verification.",
+  "features": [
+    "Browsable menu with categories (Appetizers, Mains, Desserts, Drinks)",
+    "Menu item cards with name, description, and price",
+    "Shopping cart with quantity adjustment and running total",
+    "Cart badge showing item count in the header",
+    "Checkout page with order summary and QR code display",
+    "Mobile-responsive design"
+  ],
+  "category": "productivity",
+  "tags": [
+    "restaurant",
+    "menu",
+    "cart",
+    "checkout",
+    "qr-code",
+    "food-ordering"
+  ],
+  "last_updated": "2026-04-30T04:13:12.531Z"
+}

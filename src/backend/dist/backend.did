@@ -1,0 +1,68 @@
+type Timestamp = int;
+type PlaceOrderResult = 
+ variant {
+   err: text;
+   ok: OrderSummary;
+ };
+type OrderSummaryItem = 
+ record {
+   itemId: ItemId;
+   lineTotal: nat;
+   name: text;
+   quantity: nat;
+   unitPrice: nat;
+ };
+type OrderSummary = 
+ record {
+   createdAt: Timestamp;
+   items: vec OrderSummaryItem;
+   orderId: OrderId;
+   status: OrderStatus;
+   subtotal: nat;
+   total: nat;
+ };
+type OrderStatus = 
+ variant {
+   confirmed;
+   pending;
+ };
+type OrderId = nat;
+type MenuItem = 
+ record {
+   category: Category;
+   description: text;
+   id: ItemId;
+   name: text;
+   price: nat;
+ };
+type ItemId = nat;
+type Category = 
+ variant {
+   appetizers;
+   desserts;
+   drinks;
+   mainCourses;
+ };
+type CartItem = 
+ record {
+   itemId: ItemId;
+   quantity: nat;
+ };
+type Cart = 
+ record {
+   items: vec CartItem;
+   subtotal: nat;
+   total: nat;
+ };
+service : {
+  addToCart: (itemId: ItemId, quantity: nat) -> ();
+  clearCart: () -> ();
+  getCart: () -> (Cart) query;
+  getMenuItem: (id: ItemId) -> (opt MenuItem) query;
+  getMenuItems: () -> (vec MenuItem) query;
+  getMenuItemsByCategory: (category: Category) -> (vec MenuItem) query;
+  getOrderSummary: () -> (opt OrderSummary) query;
+  placeOrder: () -> (PlaceOrderResult);
+  removeFromCart: (itemId: ItemId) -> ();
+  updateCartItem: (itemId: ItemId, quantity: nat) -> ();
+}

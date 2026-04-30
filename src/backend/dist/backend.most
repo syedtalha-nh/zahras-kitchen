@@ -1,0 +1,69 @@
+// Version: 1.0.0
+type CartItem__1044444615 = {itemId : ItemId__833640393; quantity : Nat};
+type Category__227350253 = {#appetizers; #desserts; #drinks; #mainCourses};
+type Data__791452850<K, V> =
+  {var count : Nat__490723111; kvs : [var ?(K, V)]};
+type Internal__8484328<K, V> =
+  {children : [var ?Node__46230540<K, V>]; data : Data__791452850<K, V>};
+type ItemId__833640393 = Nat;
+type Leaf__809889148<K, V> = {data : Data__791452850<K, V>};
+type List__415060402<T> = List__790383201<T>;
+type List__790383201<T> =
+  {
+    var blockIndex : Nat__490723111;
+    var blocks : [var [var ?T]];
+    var elementIndex : Nat__490723111
+  };
+type MenuItem__25360883 =
+  {
+    category : Category__227350253;
+    description : Text;
+    id : ItemId__833640393;
+    name : Text;
+    price : Nat
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Node__46230540<K, V> =
+  {#internal : Internal__8484328<K, V>; #leaf : Leaf__809889148<K, V>};
+type OrderId__197865225 = Nat;
+type OrderStatus__591380551 = {#confirmed; #pending};
+type OrderSummaryItem__212772512 =
+  {
+    itemId : ItemId__833640393;
+    lineTotal : Nat;
+    name : Text;
+    quantity : Nat;
+    unitPrice : Nat
+  };
+type OrderSummary__71916331 =
+  {
+    createdAt : Timestamp__301639476;
+    items : [OrderSummaryItem__212772512];
+    orderId : OrderId__197865225;
+    status : OrderStatus__591380551;
+    subtotal : Nat;
+    total : Nat
+  };
+type Timestamp__301639476 = Int;
+actor {
+  stable carts :
+    {
+      var root :
+        Node__46230540<Principal, List__415060402<CartItem__1044444615>>;
+      var size : Nat__490723111
+    };
+  stable menuItems :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?MenuItem__25360883]];
+      var elementIndex : Nat__490723111
+    };
+  stable var nextOrderId : Nat;
+  stable orders :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?OrderSummary__71916331]];
+      var elementIndex : Nat__490723111
+    }
+};

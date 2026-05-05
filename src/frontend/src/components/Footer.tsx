@@ -1,4 +1,4 @@
-import { Clock, Facebook, Instagram, MapPin, Phone } from "lucide-react";
+import { Clock, Facebook, Instagram, MapPin, Phone, Truck } from "lucide-react";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -15,17 +15,22 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-sm bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-display font-bold text-sm">
-                  S
+                  Z
                 </span>
               </div>
               <span className="font-display font-bold text-xl text-foreground tracking-tight">
-                Salt & Harvest
+                Zahra's Kitchen
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Seasonal ingredients, elevated dining. A neighborhood restaurant
-              dedicated to honest, beautiful food.
+              Authentic flavors, fresh ingredients, served with love. Your
+              neighborhood restaurant for delicious Indian and Indo-Chinese
+              cuisine.
             </p>
+            <div className="flex items-center gap-2 mt-4 text-sm text-muted-foreground">
+              <Truck className="w-4 h-4 text-primary shrink-0" />
+              <span>Free home delivery within 2 km</span>
+            </div>
             <div className="flex gap-3 mt-4">
               <a
                 href="https://instagram.com"
@@ -56,16 +61,29 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary shrink-0" />
-                <span>142 Maple Street, Brooklyn, NY 11201</span>
+                <span>
+                  No. 15, 3rd Cross Church Road, Munimarappa Garden, Benson Town
+                  Post, JC Road, Bangalore – 560 046
+                  <br />
+                  <span className="text-xs">(Near 119 Bus Stop)</span>
+                </span>
               </li>
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a
-                  href="tel:+17185551234"
-                  className="hover:text-foreground transition-smooth"
-                >
-                  (718) 555-1234
-                </a>
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <Phone className="w-4 h-4 mt-0.5 text-primary shrink-0" />
+                <div className="flex flex-col gap-0.5">
+                  <a
+                    href="tel:+918884770601"
+                    className="hover:text-foreground transition-smooth"
+                  >
+                    +91 88847 70601
+                  </a>
+                  <a
+                    href="tel:08043779601"
+                    className="hover:text-foreground transition-smooth"
+                  >
+                    080 4377 9601
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -76,29 +94,20 @@ export function Footer() {
               Hours
             </h3>
             <ul className="space-y-2">
-              {[
-                { day: "Mon – Thu", hours: "12:00 – 10:00 PM" },
-                { day: "Fri – Sat", hours: "12:00 – 11:00 PM" },
-                { day: "Sunday", hours: "11:00 AM – 9:00 PM" },
-              ].map(({ day, hours }) => (
-                <li
-                  key={day}
-                  className="flex items-center gap-2 text-sm text-muted-foreground"
-                >
-                  <Clock className="w-4 h-4 text-primary shrink-0" />
-                  <span>
-                    <span className="font-medium text-foreground">{day}</span> —{" "}
-                    {hours}
-                  </span>
-                </li>
-              ))}
+              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Clock className="w-4 h-4 text-primary shrink-0" />
+                <span>
+                  <span className="font-medium text-foreground">Daily</span> —
+                  12:00 PM – 12:00 AM
+                </span>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-muted-foreground">
-            © {year} Salt & Harvest. All rights reserved.
+            © {year} Zahra's Kitchen. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Built with love using{" "}

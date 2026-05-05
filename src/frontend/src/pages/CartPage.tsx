@@ -126,7 +126,7 @@ export function CartPage() {
                     </div>
                     <div className="flex items-center gap-3">
                       <span className="font-bold text-primary">
-                        ${(item.price * item.quantity).toFixed(2)}
+                        ₹{(item.price * item.quantity).toFixed(2)}
                       </span>
                       <button
                         type="button"
@@ -166,17 +166,13 @@ export function CartPage() {
               <div className="space-y-2 mb-4">
                 <div className="flex justify-between text-sm">
                   <span className="text-muted-foreground">Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Service fee</span>
-                  <span>$5.00</span>
+                  <span>₹{subtotal.toFixed(2)}</span>
                 </div>
               </div>
               <Separator className="my-3" />
               <div className="flex justify-between font-bold text-base">
                 <span>Total</span>
-                <span className="text-primary">${total.toFixed(2)}</span>
+                <span className="text-primary">₹{total.toFixed(2)}</span>
               </div>
               <Button
                 className="w-full mt-5 gap-2"

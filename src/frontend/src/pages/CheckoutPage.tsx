@@ -9,13 +9,11 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { useCart } from "../context/CartContext";
 
-// Restaurant static QR code — embedded as inline SVG modules representing
-// a stylized QR visual. For production, replace with actual QR image.
 const RESTAURANT_QR_URL =
-  "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://saltandharvest.com/verify&bgcolor=fdf7f0&color=2d1a0e&qzone=1";
+  "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zahraskitchen.com/verify&bgcolor=fdf7f0&color=2d1a0e&qzone=1";
 
 function QRDisplay({ orderId }: { orderId: string }) {
-  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://saltandharvest.com/verify?order=${orderId}&bgcolor=fdf7f0&color=2d1a0e&qzone=1`;
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zahraskitchen.com/verify?order=${orderId}&bgcolor=fdf7f0&color=2d1a0e&qzone=1`;
 
   return (
     <div className="flex flex-col items-center gap-3">
@@ -25,7 +23,6 @@ function QRDisplay({ orderId }: { orderId: string }) {
           alt={`Order verification QR code for order ${orderId}`}
           className="rounded-lg w-[180px] h-[180px]"
           onError={(e) => {
-            // Fallback to static restaurant QR
             (e.target as HTMLImageElement).src = RESTAURANT_QR_URL;
           }}
         />
@@ -163,12 +160,14 @@ export function CheckoutPage() {
             <div className="flex justify-between text-sm">
               <span className="text-muted-foreground">Total Paid</span>
               <span className="font-bold text-foreground">
-                ${orderTotal.toFixed(2)}
+                ₹{orderTotal.toFixed(2)}
               </span>
             </div>
             <div className="flex justify-between text-sm">
               <span className="text-muted-foreground">Restaurant</span>
-              <span className="text-foreground">Salt & Harvest, Brooklyn</span>
+              <span className="text-foreground">
+                Zahra's Kitchen, Bangalore
+              </span>
             </div>
           </div>
 
@@ -239,7 +238,7 @@ export function CheckoutPage() {
                       setForm((f) => ({ ...f, name: e.target.value }));
                       setErrors((er) => ({ ...er, name: "" }));
                     }}
-                    placeholder="Jane Smith"
+                    placeholder="Your full name"
                     className={errors.name ? "border-destructive" : ""}
                     data-ocid="checkout.name_input"
                   />
@@ -264,7 +263,7 @@ export function CheckoutPage() {
                       setForm((f) => ({ ...f, phone: e.target.value }));
                       setErrors((er) => ({ ...er, phone: "" }));
                     }}
-                    placeholder="(555) 000-0000"
+                    placeholder="+91 99999 99999"
                     className={errors.phone ? "border-destructive" : ""}
                     data-ocid="checkout.phone_input"
                   />
@@ -289,7 +288,7 @@ export function CheckoutPage() {
                   onChange={(e) =>
                     setForm((f) => ({ ...f, address: e.target.value }))
                   }
-                  placeholder="123 Main St, Apt 4B, Brooklyn, NY 11201"
+                  placeholder="Your delivery address"
                   rows={3}
                   className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
                   data-ocid="checkout.address_textarea"
@@ -317,7 +316,7 @@ export function CheckoutPage() {
               className="w-full"
               data-ocid="checkout.submit_button"
             >
-              Place Order — ${total.toFixed(2)}
+              Place Order — ₹{total.toFixed(2)}
             </Button>
           </form>
         </div>
@@ -347,7 +346,7 @@ export function CheckoutPage() {
                     </p>
                   </div>
                   <span className="font-semibold shrink-0">
-                    ${(item.price * item.quantity).toFixed(2)}
+                    ₹{(item.price * item.quantity).toFixed(2)}
                   </span>
                 </div>
               ))}
@@ -356,16 +355,12 @@ export function CheckoutPage() {
             <div className="space-y-1.5">
               <div className="flex justify-between text-sm">
                 <span className="text-muted-foreground">Subtotal</span>
-                <span>${subtotal.toFixed(2)}</span>
-              </div>
-              <div className="flex justify-between text-sm">
-                <span className="text-muted-foreground">Service fee</span>
-                <span>$5.00</span>
+                <span>₹{subtotal.toFixed(2)}</span>
               </div>
               <Separator className="my-2" />
               <div className="flex justify-between font-bold">
                 <span>Total</span>
-                <span className="text-primary">${total.toFixed(2)}</span>
+                <span className="text-primary">₹{total.toFixed(2)}</span>
               </div>
             </div>
           </div>

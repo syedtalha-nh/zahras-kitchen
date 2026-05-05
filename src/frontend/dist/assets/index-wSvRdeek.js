@@ -27912,30 +27912,41 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$f = [
+const __iconNode$g = [
   ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
   ["path", { d: "M19 12H5", key: "x3x0zl" }]
 ];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$f);
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$e = [
+const __iconNode$f = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
 ];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$e);
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$d = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$d);
+const __iconNode$e = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$e);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -27943,10 +27954,10 @@ const ChevronDown = createLucideIcon("chevron-down", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
-  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
 ];
-const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$c);
+const Clock = createLucideIcon("clock", __iconNode$c);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -27954,10 +27965,12 @@ const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$c);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$b = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+  [
+    "path",
+    { d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z", key: "1jg4f8" }
+  ]
 ];
-const Clock = createLucideIcon("clock", __iconNode$b);
+const Facebook = createLucideIcon("facebook", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -27965,12 +27978,11 @@ const Clock = createLucideIcon("clock", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
-  [
-    "path",
-    { d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z", key: "1jg4f8" }
-  ]
+  ["rect", { width: "20", height: "20", x: "2", y: "2", rx: "5", ry: "5", key: "2e1cvw" }],
+  ["path", { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" }],
+  ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }]
 ];
-const Facebook = createLucideIcon("facebook", __iconNode$a);
+const Instagram = createLucideIcon("instagram", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -27978,18 +27990,6 @@ const Facebook = createLucideIcon("facebook", __iconNode$a);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$9 = [
-  ["rect", { width: "20", height: "20", x: "2", y: "2", rx: "5", ry: "5", key: "2e1cvw" }],
-  ["path", { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" }],
-  ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }]
-];
-const Instagram = createLucideIcon("instagram", __iconNode$9);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$8 = [
   [
     "path",
     {
@@ -27999,22 +27999,22 @@ const __iconNode$8 = [
   ],
   ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
 ];
-const MapPin = createLucideIcon("map-pin", __iconNode$8);
+const MapPin = createLucideIcon("map-pin", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$7 = [["path", { d: "M5 12h14", key: "1ays0h" }]];
-const Minus = createLucideIcon("minus", __iconNode$7);
+const __iconNode$8 = [["path", { d: "M5 12h14", key: "1ays0h" }]];
+const Minus = createLucideIcon("minus", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$6 = [
+const __iconNode$7 = [
   [
     "path",
     {
@@ -28023,7 +28023,18 @@ const __iconNode$6 = [
     }
   ]
 ];
-const Phone = createLucideIcon("phone", __iconNode$6);
+const Phone = createLucideIcon("phone", __iconNode$7);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$6 = [
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "M12 5v14", key: "s699le" }]
+];
+const Plus = createLucideIcon("plus", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -28031,17 +28042,6 @@ const Phone = createLucideIcon("phone", __iconNode$6);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$5 = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "M12 5v14", key: "s699le" }]
-];
-const Plus = createLucideIcon("plus", __iconNode$5);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$4 = [
   [
     "path",
     {
@@ -28052,7 +28052,21 @@ const __iconNode$4 = [
   ["path", { d: "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6", key: "1itne7" }],
   ["rect", { x: "6", y: "14", width: "12", height: "8", rx: "1", key: "1ue0tg" }]
 ];
-const Printer = createLucideIcon("printer", __iconNode$4);
+const Printer = createLucideIcon("printer", __iconNode$5);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$4 = [
+  ["path", { d: "M3 7V5a2 2 0 0 1 2-2h2", key: "aa7l1z" }],
+  ["path", { d: "M17 3h2a2 2 0 0 1 2 2v2", key: "4qcy5o" }],
+  ["path", { d: "M21 17v2a2 2 0 0 1-2 2h-2", key: "6vwrx8" }],
+  ["path", { d: "M7 21H5a2 2 0 0 1-2-2v-2", key: "ioqczr" }],
+  ["path", { d: "M7 12h10", key: "b7w52i" }]
+];
+const ScanLine = createLucideIcon("scan-line", __iconNode$4);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -28060,13 +28074,11 @@ const Printer = createLucideIcon("printer", __iconNode$4);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$3 = [
-  ["path", { d: "M3 7V5a2 2 0 0 1 2-2h2", key: "aa7l1z" }],
-  ["path", { d: "M17 3h2a2 2 0 0 1 2 2v2", key: "4qcy5o" }],
-  ["path", { d: "M21 17v2a2 2 0 0 1-2 2h-2", key: "6vwrx8" }],
-  ["path", { d: "M7 21H5a2 2 0 0 1-2-2v-2", key: "ioqczr" }],
-  ["path", { d: "M7 12h10", key: "b7w52i" }]
+  ["path", { d: "M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z", key: "hou9p0" }],
+  ["path", { d: "M3 6h18", key: "d0wm0j" }],
+  ["path", { d: "M16 10a4 4 0 0 1-8 0", key: "1ltviw" }]
 ];
-const ScanLine = createLucideIcon("scan-line", __iconNode$3);
+const ShoppingBag = createLucideIcon("shopping-bag", __iconNode$3);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -28074,11 +28086,13 @@ const ScanLine = createLucideIcon("scan-line", __iconNode$3);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2 = [
-  ["path", { d: "M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z", key: "hou9p0" }],
   ["path", { d: "M3 6h18", key: "d0wm0j" }],
-  ["path", { d: "M16 10a4 4 0 0 1-8 0", key: "1ltviw" }]
+  ["path", { d: "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6", key: "4alrt4" }],
+  ["path", { d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2", key: "v07s0e" }],
+  ["line", { x1: "10", x2: "10", y1: "11", y2: "17", key: "1uufr5" }],
+  ["line", { x1: "14", x2: "14", y1: "11", y2: "17", key: "xtxkd" }]
 ];
-const ShoppingBag = createLucideIcon("shopping-bag", __iconNode$2);
+const Trash2 = createLucideIcon("trash-2", __iconNode$2);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -28086,13 +28100,19 @@ const ShoppingBag = createLucideIcon("shopping-bag", __iconNode$2);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1 = [
-  ["path", { d: "M3 6h18", key: "d0wm0j" }],
-  ["path", { d: "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6", key: "4alrt4" }],
-  ["path", { d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2", key: "v07s0e" }],
-  ["line", { x1: "10", x2: "10", y1: "11", y2: "17", key: "1uufr5" }],
-  ["line", { x1: "14", x2: "14", y1: "11", y2: "17", key: "xtxkd" }]
+  ["path", { d: "M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2", key: "wrbu53" }],
+  ["path", { d: "M15 18H9", key: "1lyqi6" }],
+  [
+    "path",
+    {
+      d: "M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14",
+      key: "lysw3i"
+    }
+  ],
+  ["circle", { cx: "17", cy: "18", r: "2", key: "332jqn" }],
+  ["circle", { cx: "7", cy: "18", r: "2", key: "19iecd" }]
 ];
-const Trash2 = createLucideIcon("trash-2", __iconNode$1);
+const Truck = createLucideIcon("truck", __iconNode$1);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -36334,7 +36354,7 @@ function CartDrawer() {
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-semibold text-sm text-foreground truncate", children: item.name }),
                   /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-foreground mt-0.5", children: [
-                    "$",
+                    "₹",
                     item.price.toFixed(2),
                     " each"
                   ] })
@@ -36384,19 +36404,15 @@ function CartDrawer() {
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Subtotal" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-semibold", children: [
-                  "$",
+                  "₹",
                   subtotal.toFixed(2)
                 ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Service fee" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold", children: "$5.00" })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(Separator, {}),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-foreground", children: "Total" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-bold text-primary text-lg", children: [
-                  "$",
+                  "₹",
                   total.toFixed(2)
                 ] })
               ] })
@@ -36425,10 +36441,14 @@ function Footer() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-10", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-sm bg-primary flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-foreground font-display font-bold text-sm", children: "S" }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl text-foreground tracking-tight", children: "Salt & Harvest" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-sm bg-primary flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-foreground font-display font-bold text-sm", children: "Z" }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl text-foreground tracking-tight", children: "Zahra's Kitchen" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed", children: "Seasonal ingredients, elevated dining. A neighborhood restaurant dedicated to honest, beautiful food." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed", children: "Authentic flavors, fresh ingredients, served with love. Your neighborhood restaurant for delicious Indian and Indo-Chinese cuisine." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mt-4 text-sm text-muted-foreground", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Truck, { className: "w-4 h-4 text-primary shrink-0" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Free home delivery within 2 km" })
+        ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-3 mt-4", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "a",
@@ -36459,50 +36479,51 @@ function Footer() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-sm text-muted-foreground", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4 mt-0.5 text-primary shrink-0" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "142 Maple Street, Brooklyn, NY 11201" })
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+              "No. 15, 3rd Cross Church Road, Munimarappa Garden, Benson Town Post, JC Road, Bangalore – 560 046",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs", children: "(Near 119 Bus Stop)" })
+            ] })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2 text-sm text-muted-foreground", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-primary shrink-0" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "a",
-              {
-                href: "tel:+17185551234",
-                className: "hover:text-foreground transition-smooth",
-                children: "(718) 555-1234"
-              }
-            )
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-sm text-muted-foreground", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 mt-0.5 text-primary shrink-0" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-0.5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "a",
+                {
+                  href: "tel:+918884770601",
+                  className: "hover:text-foreground transition-smooth",
+                  children: "+91 88847 70601"
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "a",
+                {
+                  href: "tel:08043779601",
+                  className: "hover:text-foreground transition-smooth",
+                  children: "080 4377 9601"
+                }
+              )
+            ] })
           ] })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { id: "about", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground mb-4 text-sm uppercase tracking-widest", children: "Hours" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: [
-          { day: "Mon – Thu", hours: "12:00 – 10:00 PM" },
-          { day: "Fri – Sat", hours: "12:00 – 11:00 PM" },
-          { day: "Sunday", hours: "11:00 AM – 9:00 PM" }
-        ].map(({ day, hours }) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "li",
-          {
-            className: "flex items-center gap-2 text-sm text-muted-foreground",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-4 h-4 text-primary shrink-0" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-foreground", children: day }),
-                " —",
-                " ",
-                hours
-              ] })
-            ]
-          },
-          day
-        )) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2 text-sm text-muted-foreground", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-4 h-4 text-primary shrink-0" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-foreground", children: "Daily" }),
+            " — 12:00 PM – 12:00 AM"
+          ] })
+        ] }) })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-t border-border mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-foreground", children: [
         "© ",
         year,
-        " Salt & Harvest. All rights reserved."
+        " Zahra's Kitchen. All rights reserved."
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-foreground", children: [
         "Built with love using",
@@ -36531,8 +36552,8 @@ function Header() {
         className: "flex items-center gap-2 group",
         "data-ocid": "header.logo_link",
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-sm bg-primary flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-foreground font-display font-bold text-sm", children: "S" }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl text-foreground tracking-tight group-hover:text-primary transition-smooth", children: "Salt & Harvest" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-sm bg-primary flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-foreground font-display font-bold text-sm", children: "Z" }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl text-foreground tracking-tight group-hover:text-primary transition-smooth", children: "Zahra's Kitchen" })
         ]
       }
     ),
@@ -36708,7 +36729,7 @@ function CartPage() {
                           ] }),
                           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
                             /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-bold text-primary", children: [
-                              "$",
+                              "₹",
                               (item.price * item.quantity).toFixed(2)
                             ] }),
                             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -36749,24 +36770,18 @@ function CartPage() {
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:col-span-1", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-card rounded-lg border border-border p-6 sticky top-24", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-lg text-foreground mb-4", children: "Order Summary" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2 mb-4", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Subtotal" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-                      "$",
-                      subtotal.toFixed(2)
-                    ] })
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Service fee" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "$5.00" })
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-2 mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Subtotal" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+                    "₹",
+                    subtotal.toFixed(2)
                   ] })
-                ] }),
+                ] }) }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx(Separator, { className: "my-3" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between font-bold text-base", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Total" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-primary", children: [
-                    "$",
+                    "₹",
                     total.toFixed(2)
                   ] })
                 ] }),
@@ -36852,9 +36867,9 @@ function Label({
     }
   );
 }
-const RESTAURANT_QR_URL = "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://saltandharvest.com/verify&bgcolor=fdf7f0&color=2d1a0e&qzone=1";
+const RESTAURANT_QR_URL = "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zahraskitchen.com/verify&bgcolor=fdf7f0&color=2d1a0e&qzone=1";
 function QRDisplay({ orderId }) {
-  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://saltandharvest.com/verify?order=${orderId}&bgcolor=fdf7f0&color=2d1a0e&qzone=1`;
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://zahraskitchen.com/verify?order=${orderId}&bgcolor=fdf7f0&color=2d1a0e&qzone=1`;
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center gap-3", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-muted/30 rounded-xl p-5 border border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
@@ -36984,13 +36999,13 @@ function CheckoutPage() {
                   /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Total Paid" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-bold text-foreground", children: [
-                      "$",
+                      "₹",
                       orderTotal.toFixed(2)
                     ] })
                   ] }),
                   /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Restaurant" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground", children: "Salt & Harvest, Brooklyn" })
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground", children: "Zahra's Kitchen, Bangalore" })
                   ] })
                 ] }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -37068,7 +37083,7 @@ function CheckoutPage() {
                               setForm((f) => ({ ...f, name: e.target.value }));
                               setErrors((er) => ({ ...er, name: "" }));
                             },
-                            placeholder: "Jane Smith",
+                            placeholder: "Your full name",
                             className: errors.name ? "border-destructive" : "",
                             "data-ocid": "checkout.name_input"
                           }
@@ -37094,7 +37109,7 @@ function CheckoutPage() {
                               setForm((f) => ({ ...f, phone: e.target.value }));
                               setErrors((er) => ({ ...er, phone: "" }));
                             },
-                            placeholder: "(555) 000-0000",
+                            placeholder: "+91 99999 99999",
                             className: errors.phone ? "border-destructive" : "",
                             "data-ocid": "checkout.phone_input"
                           }
@@ -37117,7 +37132,7 @@ function CheckoutPage() {
                           id: "address",
                           value: form.address,
                           onChange: (e) => setForm((f) => ({ ...f, address: e.target.value })),
-                          placeholder: "123 Main St, Apt 4B, Brooklyn, NY 11201",
+                          placeholder: "Your delivery address",
                           rows: 3,
                           className: "w-full px-3 py-2 rounded-md border border-input bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none",
                           "data-ocid": "checkout.address_textarea"
@@ -37140,7 +37155,7 @@ function CheckoutPage() {
                       className: "w-full",
                       "data-ocid": "checkout.submit_button",
                       children: [
-                        "Place Order — $",
+                        "Place Order — ₹",
                         total.toFixed(2)
                       ]
                     }
@@ -37168,7 +37183,7 @@ function CheckoutPage() {
                             ] })
                           ] }),
                           /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-semibold shrink-0", children: [
-                            "$",
+                            "₹",
                             (item.price * item.quantity).toFixed(2)
                           ] })
                         ]
@@ -37180,19 +37195,15 @@ function CheckoutPage() {
                       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Subtotal" }),
                         /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-                          "$",
+                          "₹",
                           subtotal.toFixed(2)
                         ] })
-                      ] }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between text-sm", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-muted-foreground", children: "Service fee" }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "$5.00" })
                       ] }),
                       /* @__PURE__ */ jsxRuntimeExports.jsx(Separator, { className: "my-2" }),
                       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between font-bold", children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Total" }),
                         /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-primary", children: [
-                          "$",
+                          "₹",
                           total.toFixed(2)
                         ] })
                       ] })
@@ -37240,126 +37251,1208 @@ function Badge({
   );
 }
 const CATEGORY_LABELS = {
-  appetizers: "Starters",
-  mainCourses: "Main Courses",
-  desserts: "Desserts",
-  drinks: "Drinks"
+  soups: "Zahra's Special Soup",
+  salads: "Zahra's Special Salad",
+  vegStarters: "Zahra's Special Veg Starter",
+  vegTandoori: "Zahra's Special Veg Tandoori",
+  nonVegStarterBone: "Zahra's Non Veg Starter (With Bone)",
+  nonVegStarterBoneless: "Zahra's Non Veg Starter (Boneless)",
+  rotis: "Roti's",
+  tandooriWithBone: "Zahra's Special Tandoori (With Bone)",
+  softDrinks: "Soft Drinks",
+  biryaniRice: "Zahra's Biryani and Rice",
+  specialBiryani: "Zahra's Special Biryani",
+  friedRiceNoodles: "Zahra's Fried Rice and Noodles",
+  nonVegGravy: "Zahra's Non-Veg Gravy",
+  vegGravy: "Zahra's Classic Veg Gravy",
+  vegCombo: "Zahra's Veg Combo",
+  rollsVeg: "Zahra's Rolls (Veg)",
+  nonVegCombo: "Zahra's Non Veg Combo",
+  nonVegRoll: "Zahra's Non Veg Roll",
+  familyPack: "Zahra's Family Pack"
 };
 const MENU_ITEMS = [
-  // Starters
+  // Soups
   {
     id: 1,
-    name: "Heirloom Bruschetta",
-    description: "Toasted sourdough with heirloom tomatoes, fresh basil, aged balsamic, and sea salt",
-    category: "appetizers",
-    price: 14,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Tomato Soup",
+    description: "A rich, tangy tomato soup",
+    category: "soups",
+    price: 80
   },
   {
     id: 2,
-    name: "Burrata & Prosciutto",
-    description: "Fresh burrata, thinly sliced prosciutto di Parma, fig compote, wild arugula",
-    category: "appetizers",
-    price: 18,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Lemon Coriander Soup",
+    description: "Light soup with fresh lemon and coriander",
+    category: "soups",
+    price: 80
   },
   {
     id: 3,
-    name: "Roasted Beet Salad",
-    description: "Golden and crimson beets, goat cheese, candied walnuts, honey-lemon vinaigrette",
-    category: "appetizers",
-    price: 16,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Veg Mancho Soup",
+    description: "Vegetable manchow soup with crispy noodles",
+    category: "soups",
+    price: 100
   },
-  // Main Courses
   {
     id: 4,
-    name: "Herb Roasted Chicken",
-    description: "Free-range chicken breast, thyme jus, seasonal vegetables, roasted fingerling potatoes",
-    category: "mainCourses",
-    price: 32,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Veg Hot & Sour Soup",
+    description: "Spicy and tangy vegetable soup",
+    category: "soups",
+    price: 100
   },
   {
     id: 5,
-    name: "Pan-Seared Salmon",
-    description: "Wild-caught salmon, lemon herb butter, charred asparagus, cauliflower purée",
-    category: "mainCourses",
-    price: 36,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Chicken Clear Soup",
+    description: "Light and flavorful chicken broth",
+    category: "soups",
+    price: 120
   },
   {
     id: 6,
-    name: "Braised Short Rib",
-    description: "72-hour braised beef short rib, truffle mashed potato, red wine reduction, gremolata",
-    category: "mainCourses",
-    price: 44,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Chicken Mancho Soup",
+    description: "Chicken manchow soup with crispy noodles",
+    category: "soups",
+    price: 120
   },
+  // Salads
   {
     id: 7,
-    name: "Wild Mushroom Risotto",
-    description: "Arborio rice, porcini, shiitake, truffle oil, aged Parmesan, fresh herbs",
-    category: "mainCourses",
-    price: 28,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Green Salad",
+    description: "Fresh garden greens",
+    category: "salads",
+    price: 100
   },
-  // Desserts
   {
     id: 8,
-    name: "Dark Chocolate Fondant",
-    description: "Warm valrhona chocolate cake, vanilla bean ice cream, hazelnut praline",
-    category: "desserts",
-    price: 14,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Cucumber Salad",
+    description: "Chilled cucumber with seasoning",
+    category: "salads",
+    price: 80
   },
   {
     id: 9,
-    name: "Lemon Tart",
-    description: "Sicilian lemon curd, almond pastry shell, Italian meringue, candied zest",
-    category: "desserts",
-    price: 12,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Raitha Special",
+    description: "Yogurt with fresh herbs and vegetables",
+    category: "salads",
+    price: 90
   },
+  // Veg Starters
   {
     id: 10,
-    name: "Seasonal Fruit Panna Cotta",
-    description: "Vanilla bean cream, compressed stone fruit, elderflower syrup, micro herbs",
-    category: "desserts",
-    price: 13,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Mushroom Chilly Dry",
+    description: "Crispy mushrooms tossed in spicy chilly sauce",
+    category: "vegStarters",
+    price: 160
   },
-  // Drinks
   {
     id: 11,
-    name: "Sparkling Citrus",
-    description: "House-made grapefruit shrub, elderflower tonic, fresh mint, crushed ice",
-    category: "drinks",
-    price: 9,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Mushroom Manchurian Dry",
+    description: "Mushrooms in tangy manchurian sauce",
+    category: "vegStarters",
+    price: 160
   },
   {
     id: 12,
-    name: "Pinot Noir — Glass",
-    description: "Willamette Valley, Oregon. Cherry, earth, subtle oak. 2021 vintage",
-    category: "drinks",
-    price: 16,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Baby Corn Chilly Dry",
+    description: "Tender baby corn in chilly sauce",
+    category: "vegStarters",
+    price: 160
   },
   {
     id: 13,
-    name: "Cold Brew Espresso",
-    description: "Single-origin cold brew, oat milk foam, honey drizzle. Served chilled",
-    category: "drinks",
-    price: 7,
-    image: "/assets/generated/restaurant-hero.dim_1400x700.jpg"
+    name: "Baby Corn Pepper Dry",
+    description: "Baby corn with black pepper seasoning",
+    category: "vegStarters",
+    price: 160
+  },
+  {
+    id: 14,
+    name: "Paneer Chilly Dry",
+    description: "Cottage cheese tossed in chilly sauce",
+    category: "vegStarters",
+    price: 220
+  },
+  {
+    id: 15,
+    name: "Paneer Manchurian Dry",
+    description: "Paneer in spicy manchurian sauce",
+    category: "vegStarters",
+    price: 220
+  },
+  {
+    id: 16,
+    name: "Paneer 65",
+    description: "Deep fried spiced paneer",
+    category: "vegStarters",
+    price: 220
+  },
+  {
+    id: 17,
+    name: "Gobi 65",
+    description: "Crispy spiced cauliflower",
+    category: "vegStarters",
+    price: 150
+  },
+  {
+    id: 18,
+    name: "Gobi Manchurian Dry",
+    description: "Cauliflower in manchurian sauce",
+    category: "vegStarters",
+    price: 150
+  },
+  // Veg Tandoori
+  {
+    id: 19,
+    name: "Paneer Tikka",
+    description: "Marinated cottage cheese grilled in tandoor",
+    category: "vegTandoori",
+    price: 220
+  },
+  // Non Veg Starter With Bone
+  {
+    id: 20,
+    name: "Spcl Grilled Chicken (Half)",
+    description: "Special grilled chicken, half portion",
+    category: "nonVegStarterBone",
+    price: 180
+  },
+  {
+    id: 21,
+    name: "Spcl Grilled Chicken (Full)",
+    description: "Special grilled chicken, full portion",
+    category: "nonVegStarterBone",
+    price: 350
+  },
+  {
+    id: 22,
+    name: "Spcl Kabab (Half)",
+    description: "Special kabab, half portion",
+    category: "nonVegStarterBone",
+    price: 160
+  },
+  {
+    id: 23,
+    name: "Spcl Kabab (Full)",
+    description: "Special kabab, full portion",
+    category: "nonVegStarterBone",
+    price: 300
+  },
+  {
+    id: 24,
+    name: "Chilly Chicken Dry (Bone)",
+    description: "Chicken with bone in spicy chilly sauce",
+    category: "nonVegStarterBone",
+    price: 200
+  },
+  {
+    id: 25,
+    name: "Pepper Chicken Dry",
+    description: "Chicken with bone in pepper sauce",
+    category: "nonVegStarterBone",
+    price: 200
+  },
+  {
+    id: 26,
+    name: "Kabab Manchurian Dry",
+    description: "Kabab in manchurian sauce",
+    category: "nonVegStarterBone",
+    price: 220
+  },
+  {
+    id: 27,
+    name: "Lemon Chicken Dry (Bone)",
+    description: "Chicken with bone in lemon sauce",
+    category: "nonVegStarterBone",
+    price: 200
+  },
+  {
+    id: 28,
+    name: "Mutton Pepper Dry",
+    description: "Mutton with pepper seasoning",
+    category: "nonVegStarterBone",
+    price: 280
+  },
+  {
+    id: 29,
+    name: "Mutton Chilly Dry",
+    description: "Mutton in spicy chilly sauce",
+    category: "nonVegStarterBone",
+    price: 280
+  },
+  // Non Veg Starter Boneless
+  {
+    id: 30,
+    name: "Chilly Chicken Dry",
+    description: "Boneless chicken in spicy chilly sauce",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 31,
+    name: "Chicken Manchurian Dry",
+    description: "Boneless chicken in manchurian sauce",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 32,
+    name: "Chicken Pepper Dry",
+    description: "Boneless chicken with pepper seasoning",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 33,
+    name: "Dragon Chicken Dry",
+    description: "Crispy chicken in dragon sauce",
+    category: "nonVegStarterBoneless",
+    price: 250
+  },
+  {
+    id: 34,
+    name: "Garlic Chicken Dry",
+    description: "Boneless chicken with garlic seasoning",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 35,
+    name: "Chicken 65 Dry",
+    description: "Deep fried spiced chicken",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 36,
+    name: "Ginger Chicken Dry",
+    description: "Boneless chicken with ginger seasoning",
+    category: "nonVegStarterBoneless",
+    price: 220
+  },
+  {
+    id: 37,
+    name: "Crispy Chicken Dry",
+    description: "Extra crispy fried chicken",
+    category: "nonVegStarterBoneless",
+    price: 250
+  },
+  {
+    id: 38,
+    name: "Lemon Chicken Dry",
+    description: "Boneless chicken in lemon sauce",
+    category: "nonVegStarterBoneless",
+    price: 250
+  },
+  // Rotis
+  {
+    id: 39,
+    name: "Tandoori Roti",
+    description: "Classic tandoor-baked roti",
+    category: "rotis",
+    price: 25
+  },
+  {
+    id: 40,
+    name: "Butter Roti",
+    description: "Roti with butter",
+    category: "rotis",
+    price: 35
+  },
+  {
+    id: 41,
+    name: "Plain Kulcha",
+    description: "Soft plain kulcha bread",
+    category: "rotis",
+    price: 30
+  },
+  {
+    id: 42,
+    name: "Butter Kulcha",
+    description: "Kulcha with butter",
+    category: "rotis",
+    price: 35
+  },
+  {
+    id: 43,
+    name: "Plain Naan",
+    description: "Soft plain naan",
+    category: "rotis",
+    price: 25
+  },
+  {
+    id: 44,
+    name: "Butter Naan",
+    description: "Naan with butter",
+    category: "rotis",
+    price: 30
+  },
+  {
+    id: 45,
+    name: "Rumali Roti",
+    description: "Thin handkerchief bread",
+    category: "rotis",
+    price: 15
+  },
+  {
+    id: 46,
+    name: "Butter Garlic Naan",
+    description: "Naan with butter and garlic",
+    category: "rotis",
+    price: 35
+  },
+  {
+    id: 47,
+    name: "Garlic Naan",
+    description: "Naan with garlic",
+    category: "rotis",
+    price: 30
+  },
+  {
+    id: 48,
+    name: "Dry Chapati",
+    description: "Plain dry chapati",
+    category: "rotis",
+    price: 20
+  },
+  {
+    id: 49,
+    name: "Paneer Parotha",
+    description: "Stuffed paneer paratha",
+    category: "rotis",
+    price: 35
+  },
+  // Tandoori With Bone
+  {
+    id: 50,
+    name: "Tandoori Chicken Qtr",
+    description: "Quarter tandoori chicken",
+    category: "tandooriWithBone",
+    price: 120
+  },
+  {
+    id: 51,
+    name: "Tandoori Chicken Half",
+    description: "Half tandoori chicken",
+    category: "tandooriWithBone",
+    price: 180
+  },
+  {
+    id: 52,
+    name: "Tandoori Chicken Full",
+    description: "Full tandoori chicken",
+    category: "tandooriWithBone",
+    price: 350
+  },
+  {
+    id: 53,
+    name: "Pepper Alfaham Qtr",
+    description: "Quarter pepper alfaham chicken",
+    category: "tandooriWithBone",
+    price: 120
+  },
+  {
+    id: 54,
+    name: "Pepper Alfaham Half",
+    description: "Half pepper alfaham chicken",
+    category: "tandooriWithBone",
+    price: 180
+  },
+  {
+    id: 55,
+    name: "Pepper Alfaham Full",
+    description: "Full pepper alfaham chicken",
+    category: "tandooriWithBone",
+    price: 350
+  },
+  {
+    id: 56,
+    name: "Tandoori Kabab (Half)",
+    description: "Half tandoori kabab",
+    category: "tandooriWithBone",
+    price: 200
+  },
+  {
+    id: 57,
+    name: "Tandoori Kabab (Full)",
+    description: "Full tandoori kabab",
+    category: "tandooriWithBone",
+    price: 400
+  },
+  {
+    id: 58,
+    name: "Chicken Tikka Boneless (Half)",
+    description: "Half chicken tikka boneless",
+    category: "tandooriWithBone",
+    price: 220
+  },
+  {
+    id: 59,
+    name: "Chicken Tikka Boneless (Full)",
+    description: "Full chicken tikka boneless",
+    category: "tandooriWithBone",
+    price: 400
+  },
+  {
+    id: 60,
+    name: "Malai Tikka (Half)",
+    description: "Half malai tikka",
+    category: "tandooriWithBone",
+    price: 230
+  },
+  {
+    id: 61,
+    name: "Malai Tikka (Full)",
+    description: "Full malai tikka",
+    category: "tandooriWithBone",
+    price: 420
+  },
+  {
+    id: 62,
+    name: "Haryali Tikka (Half)",
+    description: "Half haryali tikka",
+    category: "tandooriWithBone",
+    price: 230
+  },
+  {
+    id: 63,
+    name: "Haryali Tikka (Full)",
+    description: "Full haryali tikka",
+    category: "tandooriWithBone",
+    price: 400
+  },
+  {
+    id: 64,
+    name: "Kalmi Kabab (Half)",
+    description: "Half kalmi kabab",
+    category: "tandooriWithBone",
+    price: 150
+  },
+  {
+    id: 65,
+    name: "Kalmi Kabab (Full)",
+    description: "Full kalmi kabab",
+    category: "tandooriWithBone",
+    price: 300
+  },
+  // Soft Drinks
+  {
+    id: 66,
+    name: "Coco Cola",
+    description: "Refreshing Coca-Cola",
+    category: "softDrinks",
+    price: 45
+  },
+  {
+    id: 67,
+    name: "Mountain Dew",
+    description: "Citrusy Mountain Dew",
+    category: "softDrinks",
+    price: 45
+  },
+  {
+    id: 68,
+    name: "Sprite",
+    description: "Refreshing Sprite",
+    category: "softDrinks",
+    price: 45
+  },
+  // Biryani and Rice
+  {
+    id: 69,
+    name: "Mutton Biryani",
+    description: "Aromatic mutton biryani",
+    category: "biryaniRice",
+    price: 280
+  },
+  {
+    id: 70,
+    name: "Chicken Biryani",
+    description: "Flavorful chicken biryani",
+    category: "biryaniRice",
+    price: 150
+  },
+  {
+    id: 71,
+    name: "Egg Biryani",
+    description: "Spiced egg biryani",
+    category: "biryaniRice",
+    price: 120
+  },
+  {
+    id: 72,
+    name: "Veg Biryani",
+    description: "Fragrant vegetable biryani",
+    category: "biryaniRice",
+    price: 120
+  },
+  {
+    id: 73,
+    name: "Jeera Rice",
+    description: "Cumin flavored basmati rice",
+    category: "biryaniRice",
+    price: 100
+  },
+  {
+    id: 74,
+    name: "Ghee Rice",
+    description: "Rice cooked with ghee",
+    category: "biryaniRice",
+    price: 90
+  },
+  {
+    id: 75,
+    name: "Chicken Mughlai Biryani",
+    description: "Rich Mughlai style chicken biryani",
+    category: "biryaniRice",
+    price: 200
+  },
+  {
+    id: 76,
+    name: "Biryani Rice",
+    description: "Plain biryani rice",
+    category: "biryaniRice",
+    price: 100
+  },
+  {
+    id: 77,
+    name: "Prawns Biryani",
+    description: "Seasonal prawns biryani — Price is seasonal, please ask at the counter",
+    category: "biryaniRice",
+    price: 0
+  },
+  // Special Biryani
+  {
+    id: 78,
+    name: "Grilled Chicken Biryani",
+    description: "Half grilled chicken (4pcs), 1.5 rice, brinjal & raita",
+    category: "specialBiryani",
+    price: 380
+  },
+  {
+    id: 79,
+    name: "Al Faham Chicken Biryani",
+    description: "Half Al Faham chicken (4pcs), 1.5 rice, brinjal & raita",
+    category: "specialBiryani",
+    price: 380
+  },
+  {
+    id: 80,
+    name: "Tandoori Chicken Biryani",
+    description: "Half tandoori chicken (4pcs), 1.5 rice, brinjal & raita",
+    category: "specialBiryani",
+    price: 380
+  },
+  // Fried Rice and Noodles
+  {
+    id: 81,
+    name: "Veg Fried Rice",
+    description: "Wok-tossed vegetable fried rice",
+    category: "friedRiceNoodles",
+    price: 110
+  },
+  {
+    id: 82,
+    name: "Egg Fried Rice",
+    description: "Fried rice with egg",
+    category: "friedRiceNoodles",
+    price: 130
+  },
+  {
+    id: 83,
+    name: "Paneer Fried Rice",
+    description: "Fried rice with paneer",
+    category: "friedRiceNoodles",
+    price: 130
+  },
+  {
+    id: 84,
+    name: "Chicken Noodles",
+    description: "Stir-fried chicken noodles",
+    category: "friedRiceNoodles",
+    price: 160
+  },
+  {
+    id: 85,
+    name: "Singapori Chicken Noodles",
+    description: "Singapore-style chicken noodles",
+    category: "friedRiceNoodles",
+    price: 180
+  },
+  {
+    id: 86,
+    name: "Chicken Fried Rice",
+    description: "Wok-tossed chicken fried rice",
+    category: "friedRiceNoodles",
+    price: 160
+  },
+  {
+    id: 87,
+    name: "Prawns Fried Rice",
+    description: "Stir-fried rice with prawns",
+    category: "friedRiceNoodles",
+    price: 190
+  },
+  {
+    id: 88,
+    name: "Chicken Schewan Fried Rice",
+    description: "Spicy Schezwan chicken fried rice",
+    category: "friedRiceNoodles",
+    price: 185
+  },
+  {
+    id: 89,
+    name: "Mix Fried Rice",
+    description: "Mixed fried rice with assorted ingredients",
+    category: "friedRiceNoodles",
+    price: 220
+  },
+  // Non Veg Gravy
+  {
+    id: 90,
+    name: "Kadai Chicken (Half)",
+    description: "Chicken in kadai masala, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 91,
+    name: "Kadai Chicken (Full)",
+    description: "Chicken in kadai masala, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 92,
+    name: "Chicken Hydrebadi (Half)",
+    description: "Hyderabadi style chicken, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 93,
+    name: "Chicken Hydrebadi (Full)",
+    description: "Hyderabadi style chicken, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 94,
+    name: "Chicken Kolapuri (Half)",
+    description: "Spicy Kolhapuri chicken, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 95,
+    name: "Chicken Kolapuri (Full)",
+    description: "Spicy Kolhapuri chicken, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 96,
+    name: "Chicken Chettinad (Half)",
+    description: "Chettinad spiced chicken, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 97,
+    name: "Chicken Chettinad (Full)",
+    description: "Chettinad spiced chicken, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 98,
+    name: "Chicken Kalimirch (Half)",
+    description: "Chicken in black pepper gravy, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 99,
+    name: "Chicken Kalimirch (Full)",
+    description: "Chicken in black pepper gravy, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 100,
+    name: "Chicken Masala (Half)",
+    description: "Classic chicken masala, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 101,
+    name: "Chicken Masala (Full)",
+    description: "Classic chicken masala, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 102,
+    name: "Chicken Curry (Half)",
+    description: "Traditional chicken curry, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 103,
+    name: "Chicken Curry (Full)",
+    description: "Traditional chicken curry, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 104,
+    name: "Chicken Mughlai (Half)",
+    description: "Mughlai style chicken, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 105,
+    name: "Chicken Mughlai (Full)",
+    description: "Mughlai style chicken, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 106,
+    name: "Butter Chicken (Half)",
+    description: "Creamy butter chicken, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 107,
+    name: "Butter Chicken (Full)",
+    description: "Creamy butter chicken, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 108,
+    name: "Tandoori Chicken Masala (Half)",
+    description: "Tandoori chicken masala, half",
+    category: "nonVegGravy",
+    price: 265
+  },
+  {
+    id: 109,
+    name: "Tandoori Chicken Masala (Full)",
+    description: "Tandoori chicken masala, full",
+    category: "nonVegGravy",
+    price: 500
+  },
+  {
+    id: 110,
+    name: "Chicken Tikka Masala (Half)",
+    description: "Chicken tikka masala, half",
+    category: "nonVegGravy",
+    price: 220
+  },
+  {
+    id: 111,
+    name: "Chicken Tikka Masala (Full)",
+    description: "Chicken tikka masala, full",
+    category: "nonVegGravy",
+    price: 440
+  },
+  {
+    id: 112,
+    name: "Egg Masala (Half)",
+    description: "Egg masala, half",
+    category: "nonVegGravy",
+    price: 120
+  },
+  {
+    id: 113,
+    name: "Egg Masala (Full)",
+    description: "Egg masala, full",
+    category: "nonVegGravy",
+    price: 440
+  },
+  {
+    id: 114,
+    name: "Spcl Chicken Gravy (Half)",
+    description: "Special chicken gravy, half",
+    category: "nonVegGravy",
+    price: 220
+  },
+  {
+    id: 115,
+    name: "Spcl Chicken Gravy (Full)",
+    description: "Special chicken gravy, full",
+    category: "nonVegGravy",
+    price: 440
+  },
+  {
+    id: 116,
+    name: "Afghani Chicken Masala (Half)",
+    description: "Afghani style chicken masala, half",
+    category: "nonVegGravy",
+    price: 220
+  },
+  {
+    id: 117,
+    name: "Afghani Chicken Masala (Full)",
+    description: "Afghani style chicken masala, full",
+    category: "nonVegGravy",
+    price: 440
+  },
+  {
+    id: 118,
+    name: "Darbar Chicken Masala (Half)",
+    description: "Darbar style chicken masala, half",
+    category: "nonVegGravy",
+    price: 200
+  },
+  {
+    id: 119,
+    name: "Darbar Chicken Masala (Full)",
+    description: "Darbar style chicken masala, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  {
+    id: 120,
+    name: "Murgh Masala (Half)",
+    description: "Murgh masala, half",
+    category: "nonVegGravy",
+    price: 230
+  },
+  {
+    id: 121,
+    name: "Murgh Masala (Full)",
+    description: "Murgh masala, full",
+    category: "nonVegGravy",
+    price: 380
+  },
+  // Veg Gravy
+  {
+    id: 122,
+    name: "Veg Kadai",
+    description: "Mixed vegetables in kadai sauce",
+    category: "vegGravy",
+    price: 150
+  },
+  {
+    id: 123,
+    name: "Paneer Kadai",
+    description: "Paneer in kadai sauce",
+    category: "vegGravy",
+    price: 200
+  },
+  {
+    id: 124,
+    name: "Paneer Butter Masala",
+    description: "Creamy paneer butter masala",
+    category: "vegGravy",
+    price: 200
+  },
+  {
+    id: 125,
+    name: "Mushroom Kadai",
+    description: "Mushrooms in kadai sauce",
+    category: "vegGravy",
+    price: 160
+  },
+  {
+    id: 126,
+    name: "Mushroom Masala",
+    description: "Mushrooms in spiced masala",
+    category: "vegGravy",
+    price: 150
+  },
+  {
+    id: 127,
+    name: "Mix Veg Curry",
+    description: "Mixed vegetable curry",
+    category: "vegGravy",
+    price: 160
+  },
+  {
+    id: 128,
+    name: "Veg Khurma",
+    description: "Mild vegetable korma",
+    category: "vegGravy",
+    price: 160
+  },
+  {
+    id: 129,
+    name: "Dal Fry",
+    description: "Tempered lentils",
+    category: "vegGravy",
+    price: 110
+  },
+  {
+    id: 130,
+    name: "Daal Tadka",
+    description: "Tadka lentils with spices",
+    category: "vegGravy",
+    price: 130
+  },
+  {
+    id: 131,
+    name: "Baby Corn Masala",
+    description: "Baby corn in spiced masala",
+    category: "vegGravy",
+    price: 150
+  },
+  {
+    id: 132,
+    name: "Paneer Tikka Masala",
+    description: "Paneer tikka in rich masala",
+    category: "vegGravy",
+    price: 220
+  },
+  {
+    id: 133,
+    name: "Daal Palak",
+    description: "Spinach and lentil curry",
+    category: "vegGravy",
+    price: 170
+  },
+  {
+    id: 134,
+    name: "Palak Paneer",
+    description: "Paneer in creamy spinach gravy",
+    category: "vegGravy",
+    price: 250
+  },
+  {
+    id: 135,
+    name: "Sai Paneer",
+    description: "Paneer in special sauce",
+    category: "vegGravy",
+    price: 220
+  },
+  // Veg Combo
+  {
+    id: 136,
+    name: "Veg Combo 1",
+    description: "Tandoori Roti 2pcs, Paneer Butter Masala, Aloo Jeera",
+    category: "vegCombo",
+    price: 150
+  },
+  {
+    id: 137,
+    name: "Veg Combo 2",
+    description: "Ghee Rice, Dal Fry, Aloo Gobi Dry",
+    category: "vegCombo",
+    price: 150
+  },
+  {
+    id: 138,
+    name: "Veg Combo 3",
+    description: "Chapati 2pcs, Paneer Butter Masala",
+    category: "vegCombo",
+    price: 150
+  },
+  {
+    id: 139,
+    name: "Veg Combo 4",
+    description: "Veg Fried Rice, Gobi Manchurian and Dry Sauce",
+    category: "vegCombo",
+    price: 150
+  },
+  {
+    id: 140,
+    name: "Veg Combo 5",
+    description: "Jeera Rice, Dal Fry, Mushroom Pepper Dry",
+    category: "vegCombo",
+    price: 150
+  },
+  {
+    id: 141,
+    name: "Veg Combo 6",
+    description: "Biryani Rice, Brinjal Gravy, Baby Corn Pepper Dry",
+    category: "vegCombo",
+    price: 150
+  },
+  // Rolls Veg
+  {
+    id: 142,
+    name: "Paneer Roll",
+    description: "Fresh paneer roll",
+    category: "rollsVeg",
+    price: 100
+  },
+  {
+    id: 143,
+    name: "Mix Veg Roll",
+    description: "Mixed vegetable roll",
+    category: "rollsVeg",
+    price: 100
+  },
+  {
+    id: 144,
+    name: "Mushroom Roll",
+    description: "Mushroom filled roll",
+    category: "rollsVeg",
+    price: 80
+  },
+  // Non Veg Combo
+  {
+    id: 145,
+    name: "Non Veg Combo 1",
+    description: "Tandoori Roti 2pcs, Kadai Chicken, Pepper Chicken Dry",
+    category: "nonVegCombo",
+    price: 180
+  },
+  {
+    id: 146,
+    name: "Non Veg Combo 2",
+    description: "Ghee Rice, Dal Fry, Chilly Chicken",
+    category: "nonVegCombo",
+    price: 180
+  },
+  {
+    id: 147,
+    name: "Non Veg Combo 3",
+    description: "Chapati 2pcs, Chicken Varval Kabab",
+    category: "nonVegCombo",
+    price: 180
+  },
+  {
+    id: 148,
+    name: "Non Veg Combo 4",
+    description: "Jeera Rice, Dal Fry, Kabab",
+    category: "nonVegCombo",
+    price: 180
+  },
+  {
+    id: 149,
+    name: "Non Veg Combo 5",
+    description: "Biryani Rice, Brinjal Gravy, Pepper Chicken Dry",
+    category: "nonVegCombo",
+    price: 180
+  },
+  {
+    id: 150,
+    name: "Non Veg Combo 6",
+    description: "Plain Naan 2pcs, Butter Chicken, Chilly Chicken",
+    category: "nonVegCombo",
+    price: 180
+  },
+  // Non Veg Roll
+  {
+    id: 151,
+    name: "Shavarma Roll",
+    description: "Classic shawarma roll",
+    category: "nonVegRoll",
+    price: 70
+  },
+  {
+    id: 152,
+    name: "Egg Roll",
+    description: "Egg filled roll",
+    category: "nonVegRoll",
+    price: 80
+  },
+  {
+    id: 153,
+    name: "Egg Burji Roll",
+    description: "Egg bhurji roll",
+    category: "nonVegRoll",
+    price: 80
+  },
+  {
+    id: 154,
+    name: "Shavarma Jumbo Roll",
+    description: "Jumbo shawarma roll",
+    category: "nonVegRoll",
+    price: 100
+  },
+  {
+    id: 155,
+    name: "Plate Shavarma",
+    description: "Shawarma on a plate",
+    category: "nonVegRoll",
+    price: 150
+  },
+  {
+    id: 156,
+    name: "Chicken Roll",
+    description: "Chicken filled roll",
+    category: "nonVegRoll",
+    price: 110
+  },
+  {
+    id: 157,
+    name: "Chicken Kati Roll",
+    description: "Chicken kati roll",
+    category: "nonVegRoll",
+    price: 110
+  },
+  {
+    id: 158,
+    name: "Chicken Tikka Roll",
+    description: "Chicken tikka roll",
+    category: "nonVegRoll",
+    price: 120
+  },
+  {
+    id: 159,
+    name: "Chilly Chicken Roll",
+    description: "Spicy chilly chicken roll",
+    category: "nonVegRoll",
+    price: 120
+  },
+  // Family Pack
+  {
+    id: 160,
+    name: "Family Pack 1",
+    description: "Full Grilled Chicken Biryani, 750ml Sprite",
+    category: "familyPack",
+    price: 900
+  },
+  {
+    id: 161,
+    name: "Family Pack 2",
+    description: "1kg Biryani Rice, 750ml Sprite, Full Grilled Chicken, 5pcs Boiled Egg",
+    category: "familyPack",
+    price: 1300
+  },
+  {
+    id: 162,
+    name: "Family Pack 3",
+    description: "1kg Biryani, 750ml Sprite, Full Alfaham, 5pcs Boiled Egg",
+    category: "familyPack",
+    price: 1250
+  },
+  {
+    id: 163,
+    name: "Family Pack 4",
+    description: "1kg Ghee Rice, 750ml Sprite, Half Kg Butter Chicken, Gravy Full, Kabab",
+    category: "familyPack",
+    price: 1350
   }
 ];
 const CATEGORIES = [
-  "appetizers",
-  "mainCourses",
-  "desserts",
-  "drinks"
+  "soups",
+  "salads",
+  "vegStarters",
+  "vegTandoori",
+  "nonVegStarterBone",
+  "nonVegStarterBoneless",
+  "rotis",
+  "tandooriWithBone",
+  "softDrinks",
+  "biryaniRice",
+  "specialBiryani",
+  "friedRiceNoodles",
+  "nonVegGravy",
+  "vegGravy",
+  "vegCombo",
+  "rollsVeg",
+  "nonVegCombo",
+  "nonVegRoll",
+  "familyPack"
 ];
 function MenuCard({ item, index: index2 }) {
   const { addItem } = useCart();
@@ -37373,7 +38466,7 @@ function MenuCard({ item, index: index2 }) {
     });
     ue.success(`${item.name} added to cart`);
   };
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
     motion.div,
     {
       initial: { opacity: 0, y: 24 },
@@ -37382,43 +38475,29 @@ function MenuCard({ item, index: index2 }) {
       transition: { duration: 0.4, delay: index2 * 0.06 },
       className: "bg-card rounded-lg overflow-hidden border border-border shadow-card hover:shadow-warm transition-smooth group",
       "data-ocid": `menu.item.${index2 + 1}`,
-      children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative h-48 overflow-hidden bg-muted", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-base text-foreground leading-snug", children: item.name }),
+        item.description && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mt-1 line-clamp-2", children: item.description }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mt-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-primary text-lg", children: item.price === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-semibold text-muted-foreground", children: "Seasonal" }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+            "₹",
+            item.price
+          ] }) }),
+          item.price > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            Button,
             {
-              src: item.image ?? "/assets/images/placeholder.svg",
-              alt: item.name,
-              className: "w-full h-full object-cover group-hover:scale-105 transition-smooth",
-              loading: "lazy"
+              size: "sm",
+              onClick: handleAdd,
+              className: "h-8 px-3 gap-1",
+              "data-ocid": `menu.add_button.${index2 + 1}`,
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "w-3.5 h-3.5" }),
+                "Add"
+              ]
             }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-base text-foreground leading-snug", children: item.name }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-1 line-clamp-2 leading-relaxed", children: item.description }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mt-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-display font-bold text-primary text-lg", children: [
-              "$",
-              item.price
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              Button,
-              {
-                size: "sm",
-                onClick: handleAdd,
-                className: "h-8 px-3 gap-1",
-                "data-ocid": `menu.add_button.${index2 + 1}`,
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "w-3.5 h-3.5" }),
-                  "Add"
-                ]
-              }
-            )
-          ] })
+          )
         ] })
-      ]
+      ] })
     }
   );
 }
@@ -37432,7 +38511,7 @@ function MenuPage() {
           "img",
           {
             src: "/assets/generated/restaurant-hero.dim_1400x700.jpg",
-            alt: "Salt & Harvest restaurant dining",
+            alt: "Zahra's Kitchen restaurant dining",
             className: "w-full h-full object-cover"
           }
         ),
@@ -37446,7 +38525,7 @@ function MenuPage() {
             animate: { opacity: 1, y: 0 },
             transition: { duration: 0.5 },
             className: "text-xs font-semibold tracking-widest uppercase text-primary-foreground/70 mb-3",
-            children: "Seasonal Menu"
+            children: "Indian & Indo-Chinese Cuisine"
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -37456,7 +38535,7 @@ function MenuPage() {
             animate: { opacity: 1, y: 0 },
             transition: { duration: 0.6, delay: 0.1 },
             className: "font-display font-bold text-4xl sm:text-6xl text-primary-foreground leading-none tracking-tight text-balance",
-            children: "Salt & Harvest"
+            children: "Zahra's Kitchen"
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -37466,7 +38545,7 @@ function MenuPage() {
             animate: { opacity: 1, y: 0 },
             transition: { duration: 0.5, delay: 0.25 },
             className: "text-base sm:text-lg text-primary-foreground/80 mt-4 max-w-md mx-auto",
-            children: "Honest ingredients. Beautiful food. Served with intention."
+            children: "Serving Delicious And Mouth Watering Dishes Since 2018"
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsxs(

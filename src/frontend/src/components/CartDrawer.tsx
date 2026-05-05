@@ -119,7 +119,7 @@ export function CartDrawer() {
                           {item.name}
                         </p>
                         <p className="text-xs text-muted-foreground mt-0.5">
-                          ${item.price.toFixed(2)} each
+                          ₹{item.price.toFixed(2)} each
                         </p>
                       </div>
                       <div className="flex items-center gap-2 shrink-0">
@@ -171,18 +171,14 @@ export function CartDrawer() {
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Subtotal</span>
                     <span className="font-semibold">
-                      ${subtotal.toFixed(2)}
+                      ₹{subtotal.toFixed(2)}
                     </span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Service fee</span>
-                    <span className="font-semibold">$5.00</span>
                   </div>
                   <Separator />
                   <div className="flex justify-between">
                     <span className="font-bold text-foreground">Total</span>
                     <span className="font-bold text-primary text-lg">
-                      ${total.toFixed(2)}
+                      ₹{total.toFixed(2)}
                     </span>
                   </div>
                 </div>

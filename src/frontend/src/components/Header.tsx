@@ -16,11 +16,11 @@ export function Header() {
         >
           <div className="w-8 h-8 rounded-sm bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-display font-bold text-sm">
-              S
+              Z
             </span>
           </div>
           <span className="font-display font-bold text-xl text-foreground tracking-tight group-hover:text-primary transition-smooth">
-            Salt & Harvest
+            Zahra's Kitchen
           </span>
         </Link>
 

@@ -13,10 +13,25 @@ import {
 } from "../types";
 
 const CATEGORIES: Category[] = [
-  "appetizers",
-  "mainCourses",
-  "desserts",
-  "drinks",
+  "soups",
+  "salads",
+  "vegStarters",
+  "vegTandoori",
+  "nonVegStarterBone",
+  "nonVegStarterBoneless",
+  "rotis",
+  "tandooriWithBone",
+  "softDrinks",
+  "biryaniRice",
+  "specialBiryani",
+  "friedRiceNoodles",
+  "nonVegGravy",
+  "vegGravy",
+  "vegCombo",
+  "rollsVeg",
+  "nonVegCombo",
+  "nonVegRoll",
+  "familyPack",
 ];
 
 function MenuCard({ item, index }: { item: MenuItem; index: number }) {
@@ -42,35 +57,36 @@ function MenuCard({ item, index }: { item: MenuItem; index: number }) {
       className="bg-card rounded-lg overflow-hidden border border-border shadow-card hover:shadow-warm transition-smooth group"
       data-ocid={`menu.item.${index + 1}`}
     >
-      <div className="relative h-48 overflow-hidden bg-muted">
-        <img
-          src={item.image ?? "/assets/images/placeholder.svg"}
-          alt={item.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
-          loading="lazy"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
-      </div>
       <div className="p-4">
         <h3 className="font-display font-bold text-base text-foreground leading-snug">
           {item.name}
         </h3>
-        <p className="text-xs text-muted-foreground mt-1 line-clamp-2 leading-relaxed">
-          {item.description}
-        </p>
+        {item.description && (
+          <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
+            {item.description}
+          </p>
+        )}
         <div className="flex items-center justify-between mt-3">
           <span className="font-display font-bold text-primary text-lg">
-            ${item.price}
+            {item.price === 0 ? (
+              <span className="text-sm font-semibold text-muted-foreground">
+                Seasonal
+              </span>
+            ) : (
+              <>₹{item.price}</>
+            )}
           </span>
-          <Button
-            size="sm"
-            onClick={handleAdd}
-            className="h-8 px-3 gap-1"
-            data-ocid={`menu.add_button.${index + 1}`}
-          >
-            <Plus className="w-3.5 h-3.5" />
-            Add
-          </Button>
+          {item.price > 0 && (
+            <Button
+              size="sm"
+              onClick={handleAdd}
+              className="h-8 px-3 gap-1"
+              data-ocid={`menu.add_button.${index + 1}`}
+            >
+              <Plus className="w-3.5 h-3.5" />
+              Add
+            </Button>
+          )}
         </div>
       </div>
     </motion.div>
@@ -92,7 +108,7 @@ export function MenuPage() {
         <div className="absolute inset-0">
           <img
             src="/assets/generated/restaurant-hero.dim_1400x700.jpg"
-            alt="Salt & Harvest restaurant dining"
+            alt="Zahra's Kitchen restaurant dining"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-foreground/50" />
@@ -104,7 +120,7 @@ export function MenuPage() {
             transition={{ duration: 0.5 }}
             className="text-xs font-semibold tracking-widest uppercase text-primary-foreground/70 mb-3"
           >
-            Seasonal Menu
+            Indian & Indo-Chinese Cuisine
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -112,7 +128,7 @@ export function MenuPage() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display font-bold text-4xl sm:text-6xl text-primary-foreground leading-none tracking-tight text-balance"
           >
-            Salt & Harvest
+            Zahra's Kitchen
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -120,7 +136,7 @@ export function MenuPage() {
             transition={{ duration: 0.5, delay: 0.25 }}
             className="text-base sm:text-lg text-primary-foreground/80 mt-4 max-w-md mx-auto"
           >
-            Honest ingredients. Beautiful food. Served with intention.
+            Serving Delicious And Mouth Watering Dishes Since 2018
           </motion.p>
           <motion.a
             href="#menu"
